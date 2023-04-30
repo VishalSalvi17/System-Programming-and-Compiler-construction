@@ -1,0 +1,8 @@
+Use the below comments
+
+1. gcc -c -Wall -Werror -fpic sample.c -lm
+2. gcc -shared -o libsample.so sample.o -lm
+3. gcc -L$PWD test.c -o test -Wall -lsample -lm
+4. export LD_LIBRARY_PATH=/home/pmparekh/Desktop/Prerak_College/SEM-6/SPCC/Exp3
+5. echo $LD_LIBRARY_PATH 
+6. ./test

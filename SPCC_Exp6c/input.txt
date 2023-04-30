@@ -1,0 +1,11 @@
+4
++ * a b
+3
+E T F
+4
+Z->E
+E->E+T|T
+T->TF|F
+F->F*|a|b
+E
+a+a++b$

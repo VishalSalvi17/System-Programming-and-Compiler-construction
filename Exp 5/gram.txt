@@ -1,0 +1,5 @@
+G=V,T,P,S
+V=E
+T=&,|,i
+P=E>E&E,E>E|E,E>i
+S=E
